@@ -11,14 +11,16 @@ We first employed wavelet transformation to reduce the noise of the data.
 We then tested regular autoencoder and stacked autoencoder to reduce the dimension.
 We then employed LSTM to predict future stock index.
 In addition, we employed batch normalization, gradient clipping to further improve our model.
-#Evaluation
+# Evaluation
 We report the final R^2 as the measure of our model.
-#Files Description
+We also tried to convert it into a classification problem by predict whether index will go up, go down or remain the same.
+# Files Description
+Here is how files are named and stored
 Data file: GSPC, HSI, raw data
-Autoencoder: 
-Stacked Autoencoder: st
-output from autoencoder:
-output from stacked autoencoder:
+Autoencoder: autoencoder****
+Stacked Autoencoder: st-***
+output from autoencoder:auto_result****
+output from stacked autoencoder:update_stresult****
 
-Reference
+# Reference
 Bao, W., Yue, J., & Rao, Y. (2017). A deep learning framework for financial time series using stacked autoencoders and long-short term memory. PLoS One, 12(7), E0180944.
