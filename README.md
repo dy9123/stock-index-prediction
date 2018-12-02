@@ -13,6 +13,12 @@ We then employed LSTM to predict future stock index.
 In addition, we employed batch normalization, gradient clipping to further improve our model.
 #Evaluation
 We report the final R^2 as the measure of our model.
+#Files Description
+Data file: GSPC, HSI, raw data
+Autoencoder: 
+Stacked Autoencoder: st
+output from autoencoder:
+output from stacked autoencoder:
 
 Reference
 Bao, W., Yue, J., & Rao, Y. (2017). A deep learning framework for financial time series using stacked autoencoders and long-short term memory. PLoS One, 12(7), E0180944.
